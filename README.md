@@ -1,3 +1,3 @@
-# Intermediate Node.js
+# Space Photo Album
 
-Check out the issues of this repo for the course materials.
+A shared space exploration photo album
