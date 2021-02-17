@@ -3,20 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <title>Space Probe</title>
 </head>
 <body>
-    <div class="header"></div>
-    <h1>Space Exploration</h1>
-    <div class="container">
-        <img src="images/20802115234_3ccd4e93a9_c.jpg" alt="">
-        <img src="images/26405462060_ca9f2d22d9_c.jpg" alt="">
-        <img src="images/istockphoto-1131418344-612x612.jpg" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
-        <p>Maxime vel facere excepturi natus et aliquid harum eius eaque nisi deserunt temporibus labore,</p> 
-        <p>vero iusto sequi corrupti officia repudiandae exercitationem consequatur.</p>
+    <div id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">XProbe</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navBarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/profile">Profile</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
-    <div class="footer">Copyright &#169; Phoenx</div>
+    <h1 class="text-center">Space Exploration</h1>
+    <div class="container-fluid">
+        <img src="images/20802115234_3ccd4e93a9_c.jpg" class="mx-auto d-block p-2" alt="">
+        <img src="images/26405462060_ca9f2d22d9_c.jpg" class="mx-auto d-block p-2" alt="">
+        <img src="images/istockphoto-1131418344-612x612.jpg" class="mx-auto d-block p-2" alt="">
+        <div class="text-center">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+            <p>Maxime vel facere excepturi natus et aliquid harum eius eaque nisi deserunt temporibus labore,</p> 
+            <p>vero iusto sequi corrupti officia repudiandae exercitationem consequatur.</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="text-center">Copyright &#169; Phoenx</div>
+    </footer>
 </body>
 </html>
